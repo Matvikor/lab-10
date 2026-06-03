@@ -11,18 +11,18 @@
 
 ## Сборка
 
-### Компиляция
-gcc -std=c11 -Wall -Wextra -Wpedantic -shared -Iinclude -o build/stack_lib.dll src/stack_lib.c
-gcc -std=c11 -Wall -Wextra -Wpedantic -Iinclude -o build/stack_demo.exe demo/main.c src/stack_lib.c
+### Компиляция<br>
+gcc -std=c11 -Wall -Wextra -Wpedantic -shared -Iinclude -o build/stack_lib.dll src/stack_lib.c<br>
+gcc -std=c11 -Wall -Wextra -Wpedantic -Iinclude -o build/stack_demo.exe demo/main.c src/stack_lib.c<br>
 
-### Результат работы демо-программы
+### Результат работы демо-программы<br>
 
-=== Stack Library Demo ===
-Pushing: 10, 20, 30
-Peek: 30
-Popping sequence: 30 20 10
-Final size: 0
+=== Stack Library Demo ===<br>
+Pushing: 10, 20, 30<br>
+Peek: 30<br>
+Popping sequence: 30 20 10<br>
+Final size: 0<br>
 
-### Тесты
-=== C Tests ===
-Passed: 213 | Failed: 0
+### Тесты<br>
+=== C Tests ===<br>
+Passed: 213 | Failed: 0<br>
