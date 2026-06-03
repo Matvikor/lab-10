@@ -1,4 +1,4 @@
-@"
+
 # Dynamic Stack Library
 
 Библиотека для работы со стеком (LIFO) на динамическом массиве.
@@ -15,4 +15,3 @@ make all
 make test
 make py-test
 \`\`\`
-"@ | Out-File -FilePath "README.md" -Encoding utf8 -NoNewline
